@@ -7,7 +7,7 @@ int sensor_in = 2;
 
 String cmd = "temp";
 String input = "";
-String color - "";
+String color = "";
 
 void setup() {
 Serial.begin(9600);
@@ -26,27 +26,30 @@ digitalWrite(ledPin_Orange, LOW);
 digitalWrite(ledPin_Green, LOW);
 color = "red";
 }
-else if(voltage>=3.5 && voltage<4) {
+else if(voltage>=3.5 && voltage<4.0) {
 digitalWrite(ledPin_Red, LOW);
 digitalWrite(ledPin_Orange, HIGH);
 digitalWrite(ledPin_Green, LOW);
 color = "orange";
 }
-else {
+else if(voltage >= 4.0){
 digitalWrite(ledPin_Red, LOW);
 digitalWrite(ledPin_Orange, LOW);
 digitalWrite(ledPin_Green, HIGH);
 color = "green";
 }
 
-Serial.println(voltage + " - " + color);
+Serial.print(voltage);
+Serial.print(" - ");
+Serial.println(color);
 
 if(Serial.available()) {
 input = Serial.readStringUntil('\n');
 }
 if(Serial.available() == 0 && input == cmd) {
-Serial.print(voltage + " - " + color);
-Serial.println();
+Serial.print(voltage);
+Serial.print(" - ");
+Serial.println(color);
 input = "";
 color = "";
 }
