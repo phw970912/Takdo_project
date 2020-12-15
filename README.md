@@ -26,7 +26,8 @@ Arduino LEONARDO, RaspberryPi, 탁도 센서, LED(빨강, 주황, 초록 각각 
 
 ## 회로 사진
 
-![arduino](https://user-images.githubusercontent.com/56572032/102181744-81750300-3eee-11eb-85a0-49800438df31.png)
+<img src="https://user-images.githubusercontent.com/55423181/102199171-a2495280-3f06-11eb-99be-741d58423e6d.PNG" width="70%" height="70%" />
+
 아두이노와 브레드보드 회로도(라즈베리파이와 탁도센서 연결 제외)
 
 사진에는 LED가 8, 10, 12번에 연결되어 있으나 실제 연결은 11, 12, 13번에 연결함
@@ -65,5 +66,6 @@ Digital에 연결할 경우 HIGH와 LOW만 읽어오기 때문에 수치를 확�
 [timerbot.py](https://github.com/jeewoo197/Takdo_project/blob/main/timerbot.py)
 
 ## 텔레그램 봇 연동
+<img src="https://user-images.githubusercontent.com/56572032/102184316-994e8600-3ef2-11eb-9c20-57f94f477b76.jpg" width="50%" height="50%" />
 ![Screenshot_20201215-162740_Telegram](https://user-images.githubusercontent.com/56572032/102184316-994e8600-3ef2-11eb-9c20-57f94f477b76.jpg)
 진한 흙탕물, 조금 연한 흙탕물, 수돗물에 담갔을 때의 텔레그램 봇의 반응
