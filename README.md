@@ -1,4 +1,7 @@
-# Takdo_project
+# Takdo_project (잠깐생각좀... 팀)
+### 201644013 3-A 박현우
+### 201644018 3-A 송현석
+### 201644031 3-A 전우성
 
 ## 개발 목적
 일반 사람이 탁도를 한 눈으로 확인하기는 쉽지 않다. 따라서 신호등의 빨강, 주황, 초록색의 LED 센서를 이용하여 한 눈에 알아보기 쉽게 하기 위함이다.
@@ -19,11 +22,7 @@
 
 Arduino LEONARDO, RaspberryPi, 탁도 센서, LED(빨강, 주황, 초록 각각 1개씩), 저항100옴 3개, 연결선, 브레드보드
 
-![KakaoTalk_20201215_153653825](https://user-images.githubusercontent.com/56572032/102180610-81740380-3eec-11eb-9ed4-b0621e0516cb.jpg)
-전체 회로 사진
-
-![KakaoTalk_20201215_153722137](https://user-images.githubusercontent.com/56572032/102180627-86d14e00-3eec-11eb-8c51-cb3c9e04e5fb.jpg)
-브레드보드를 확대한 사진
+## 회로 사진
 
 ![arduino](https://user-images.githubusercontent.com/56572032/102181744-81750300-3eee-11eb-85a0-49800438df31.png)
 아두이노와 브레드보드 회로도(라즈베리파이와 탁도센서 연결 제외)
@@ -34,10 +33,20 @@ Arduino LEONARDO, RaspberryPi, 탁도 센서, LED(빨강, 주황, 초록 각각 
 
 탁도센서 연결부
 
+![KakaoTalk_20201215_153653825](https://user-images.githubusercontent.com/56572032/102180610-81740380-3eec-11eb-9ed4-b0621e0516cb.jpg)
+전체 회로 사진
+
+![KakaoTalk_20201215_153722137](https://user-images.githubusercontent.com/56572032/102180627-86d14e00-3eec-11eb-8c51-cb3c9e04e5fb.jpg)
+브레드보드를 확대한 사진
+
 Analog 0번(A0)에 연결하는 이유는 수치값을 읽어와야 하기 때문이다.
 
 Digital에 연결할 경우 HIGH와 LOW만 읽어오기 때문에 수치를 확인할 수 없다.
 
+## 아두이노 코드
+https://github.com/jeewoo197/Takdo_project/blob/main/Project/takdo_led.ino
+
+## LED 작동
 ![KakaoTalk_20201215_161347207](https://user-images.githubusercontent.com/56572032/102183146-b84c1880-3ef0-11eb-9434-f8dbd976781f.jpg)
 각 종이컵에 농도가 진한 흙탕물, 조금 연한 흙탕물, 수돗물을 준비
 
@@ -50,11 +59,9 @@ Digital에 연결할 경우 HIGH와 LOW만 읽어오기 때문에 수치를 확�
 ![KakaoTalk_20201215_162228490-1](https://user-images.githubusercontent.com/56572032/102183875-e67e2800-3ef1-11eb-9978-092f9f9b6102.jpg)
 수돗물에 담갔을 때의 사진
 
+## 텔레그램 봇 연동 코드
+https://github.com/jeewoo197/Takdo_project/blob/main/timerbot.py
+
+## 텔레그램 봇 연동
 ![Screenshot_20201215-162740_Telegram](https://user-images.githubusercontent.com/56572032/102184316-994e8600-3ef2-11eb-9c20-57f94f477b76.jpg)
 진한 흙탕물, 조금 연한 흙탕물, 수돗물에 담갔을 때의 텔레그램 봇의 반응
-
-https://github.com/jeewoo197/Takdo_project/blob/main/Project/takdo_led.ino
-아두이노 코드
-
-https://github.com/jeewoo197/Takdo_project/blob/main/timerbot.py
-텔레그램 봇 연동 
