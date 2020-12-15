@@ -44,7 +44,7 @@ Analog 0번(A0)에 연결하는 이유는 수치값을 읽어와야 하기 때�
 Digital에 연결할 경우 HIGH와 LOW만 읽어오기 때문에 수치를 확인할 수 없다.
 
 ## 아두이노 코드
-https://github.com/jeewoo197/Takdo_project/blob/main/Project/takdo_led.ino
+[takdo_led.ino](https://github.com/jeewoo197/Takdo_project/blob/main/Project/takdo_led.ino)
 
 ## LED 작동
 ![KakaoTalk_20201215_161347207](https://user-images.githubusercontent.com/56572032/102183146-b84c1880-3ef0-11eb-9434-f8dbd976781f.jpg)
@@ -60,7 +60,7 @@ https://github.com/jeewoo197/Takdo_project/blob/main/Project/takdo_led.ino
 수돗물에 담갔을 때의 사진
 
 ## 텔레그램 봇 연동 코드
-https://github.com/jeewoo197/Takdo_project/blob/main/timerbot.py
+[timerbot.py](https://github.com/jeewoo197/Takdo_project/blob/main/timerbot.py)
 
 ## 텔레그램 봇 연동
 ![Screenshot_20201215-162740_Telegram](https://user-images.githubusercontent.com/56572032/102184316-994e8600-3ef2-11eb-9c20-57f94f477b76.jpg)
