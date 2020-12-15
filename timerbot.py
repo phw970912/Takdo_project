@@ -41,10 +41,6 @@ logger = logging.getLogger(__name__)
 
 # Define a few command handlers. These usually take the two arguments update and
 # context. Error handlers also receive the raised TelegramError object in error.
-def takePhoto():
-    camera = picamera.PiCamera()
-    camera.capture('image.jpg')
-    camera.close()
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Hi! Use /takdo')
@@ -62,6 +58,7 @@ def tak_do(update: Update, context: CallbackContext) -> None:
             content = seri.readline()
             text = content[:-2].decode()
             update.message.reply_text(text)
+            update.message.reply_text('Green - Good | Orange - Warning | Red - Bad')
             a=0
 
 
