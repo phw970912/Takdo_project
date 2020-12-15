@@ -67,5 +67,4 @@ Digital에 연결할 경우 HIGH와 LOW만 읽어오기 때문에 수치를 확�
 
 ## 텔레그램 봇 연동
 <img src="https://user-images.githubusercontent.com/56572032/102184316-994e8600-3ef2-11eb-9c20-57f94f477b76.jpg" width="50%" height="50%" />
-![Screenshot_20201215-162740_Telegram](https://user-images.githubusercontent.com/56572032/102184316-994e8600-3ef2-11eb-9c20-57f94f477b76.jpg)
 진한 흙탕물, 조금 연한 흙탕물, 수돗물에 담갔을 때의 텔레그램 봇의 반응
